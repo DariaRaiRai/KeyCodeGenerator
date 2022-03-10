@@ -48,12 +48,18 @@ section{
     margin: 20px 0;
     font-size: 60px;
 }
+
 div.arrow{
     background-color: transparent;
     padding: 0 100px;
     box-shadow: none;
     cursor: default;
 }
+
+.noHover{
+    pointer-events: none;
+}
+
 .arrow img{
     width: 80px;
 }
